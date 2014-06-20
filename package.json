@@ -1,0 +1,35 @@
+{
+  "name": "pre-commit-make-parallel",
+  "version": "0.1.0",
+  "description": "Runs make commands with -j (parallel) before commit",
+  "main": "index.js",
+  "scripts": {
+    "install": "node install",
+    "test": "grunt"
+  },
+  "pre-commit": "grunt",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahmutov/pre-commit-make-parallel.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "pre-commit",
+    "make",
+    "parallel",
+    "Makefile",
+    "npm",
+    "hooks"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "matchdep": "~0.3.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-deps-ok": "^0.2.0",
+    "grunt": "^0.4.5",
+    "grunt-complexity": "^0.1.7",
+    "grunt-bump": "0.0.14"
+  }
+}
