@@ -9,7 +9,7 @@ Runs `make -j post-merge` command after git pull or merge.
 [![devdependencies][pre-commit-make-parallel-devdependencies-image]][pre-commit-make-parallel-devdependencies-url]
 [![endorse][endorse-image]][endorse-url]
 
-This is almost the same as [pre-commit-make-parallel](https://github.com/bahmutov/pre-commit-make-parallel)
+This is almost the same as [pre-commit-make](https://github.com/bahmutov/pre-commit-make)
 except it runs make with parallel tasks option `-j`
 
 ### Small print

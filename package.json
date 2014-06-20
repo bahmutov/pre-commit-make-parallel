@@ -1,6 +1,6 @@
 {
   "name": "pre-commit-make-parallel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Runs make commands with -j (parallel) before commit",
   "main": "index.js",
   "scripts": {
